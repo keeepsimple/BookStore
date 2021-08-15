@@ -15,6 +15,8 @@ namespace BookStore.Models.Common
         [MaxLength(500, ErrorMessage = "The {0} must less than {1} characters")]
         public string Content { get; set; }
 
+        public bool IsActive { get; set; }
+
         [ForeignKey("Book")]
         public Guid BookId { get; set; }
 
