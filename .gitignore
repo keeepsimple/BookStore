@@ -6,3 +6,13 @@
 /src/BookStore/BookStore.Models/obj/Debug
 /src/BookStore/packages/EntityFramework.6.4.4
 /src/BookStore/BookStore.Models/bin/Debug
+/src/BookStore/.vs/BookStore/config
+/src/BookStore/BookStore.Common/bin/Debug
+/src/BookStore/BookStore.Common/obj/Debug
+/src/BookStore/BookStore.Data/bin/Debug
+/src/BookStore/BookStore.Data/obj/Debug
+/src/BookStore/BookStore.Services/bin/Debug
+/src/BookStore/BookStore.Services/obj/Debug
+/src/BookStore/BookStore.WebMVC/bin
+/src/BookStore/BookStore.WebMVC/obj/Debug
+/src/BookStore/packages

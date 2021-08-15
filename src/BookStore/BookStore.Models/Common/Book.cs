@@ -35,11 +35,6 @@ namespace BookStore.Models.Common
         public Guid CategoryId { get; set; }
 
         public virtual Category Category { get; set; }
-        
-        [ForeignKey("Author")]
-        public Guid AuthorId { get; set; }
-
-        public virtual Author Author { get; set; }
 
         [ForeignKey("Publisher")]
         public Guid PublisherId { get; set; }
@@ -47,5 +42,7 @@ namespace BookStore.Models.Common
         public virtual Publisher Publisher { get; set; }
 
         public virtual ICollection<Review> Reviews { get; set; }
+
+        public virtual ICollection<Author> Authors { get; set; }
     }
 }
