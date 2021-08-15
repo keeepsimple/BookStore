@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/BookStore/.vs/BookStore/v17
+/src/BookStore/BookStore.Models/obj/Debug
+/src/BookStore/packages/EntityFramework.6.4.4
+/src/BookStore/BookStore.Models/bin/Debug
