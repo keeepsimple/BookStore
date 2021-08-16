@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202108151353069_InitialCreate.designer.cs">
       <DependentUpon>202108151353069_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108151546333_AddEmailToReviewModel.cs" />
+    <Compile Include="Migrations\202108151546333_AddEmailToReviewModel.designer.cs">
+      <DependentUpon>202108151546333_AddEmailToReviewModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -77,6 +81,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202108151353069_InitialCreate.resx">
       <DependentUpon>202108151353069_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108151546333_AddEmailToReviewModel.resx">
+      <DependentUpon>202108151546333_AddEmailToReviewModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

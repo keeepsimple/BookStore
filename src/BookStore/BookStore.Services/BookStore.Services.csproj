@@ -51,14 +51,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorServices.cs" />
+    <Compile Include="BaseServices\BaseServices.cs" />
+    <Compile Include="BaseServices\IBaseServices.cs" />
+    <Compile Include="BookServices.cs" />
+    <Compile Include="CategoryServices.cs" />
+    <Compile Include="IAuthorServices.cs" />
+    <Compile Include="IBookServices.cs" />
+    <Compile Include="ICategoryServices.cs" />
+    <Compile Include="IPublisherServices.cs" />
+    <Compile Include="IReviewServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublisherServices.cs" />
+    <Compile Include="ReviewServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="BaseServices\" />
+    <ProjectReference Include="..\BookStore.Common\BookStore.Common.csproj">
+      <Project>{631597E9-FE20-4F68-A6C7-05CF75904871}</Project>
+      <Name>BookStore.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.Data\BookStore.Data.csproj">
+      <Project>{497CAA9A-CCF6-4532-BE0E-FDE286DA061A}</Project>
+      <Name>BookStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.Models\BookStore.Models.csproj">
+      <Project>{A6C7923D-D923-42CF-8D8F-B723D64C93D2}</Project>
+      <Name>BookStore.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
