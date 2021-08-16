@@ -133,7 +133,8 @@ namespace BookStore.Data
                     Name = "Reviewer 01",
                     Content = "This is reviewer 01",
                     IsActive = true,
-                    BookId = book1.Id
+                    BookId = book1.Id,
+                    Email = "revier1@mail.com"
                 },
                 new Review
                 {
@@ -141,7 +142,8 @@ namespace BookStore.Data
                     Name = "Reviewer 02",
                     Content = "This is reviewer 02",
                     IsActive = true,
-                    BookId = book2.Id
+                    BookId = book2.Id,
+                    Email = "revier2@mail.com"
                 },
                 new Review
                 {
@@ -149,7 +151,8 @@ namespace BookStore.Data
                     Name = "Reviewer 03",
                     Content = "This is reviewer 03",
                     IsActive = true,
-                    BookId = book3.Id
+                    BookId = book3.Id,
+                    Email = "revier3@mail.com"
                 }
             };
             context.Reviews.AddRange(reviews);
